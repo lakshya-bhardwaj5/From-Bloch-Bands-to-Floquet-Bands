@@ -1,0 +1,6 @@
+Running static_bands
+Running single_band
+Running wavepackets
+Running multiband
+Running convergence
+All numerical acceptance checks passed.

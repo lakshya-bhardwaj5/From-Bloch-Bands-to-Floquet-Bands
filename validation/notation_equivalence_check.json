@@ -1,0 +1,14 @@
+{
+  "assertion": "Lecture minus-K matrix is exactly the reversed-basis plus-G matrix at all tested points",
+  "depths": [
+    2,
+    4,
+    8,
+    12
+  ],
+  "momenta_per_depth": 33,
+  "M": 12,
+  "max_low3_eigenvalue_difference_ER": 0.0,
+  "permutation_matrix_equality": "exact in double precision for constructed entries",
+  "interpretation": "Notation and index-order change only; no physical result changes"
+}

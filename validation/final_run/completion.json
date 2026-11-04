@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "elapsed_seconds": 9.367244958877563,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "argv": [
+    "code/run_all.py",
+    "--output-run",
+    "validation/final_run"
+  ],
+  "randomness": "none",
+  "outputs_sha256": {
+    "figures/01_static_bands.pdf": "a53777cf651ef025a17d71cdc84a33b37aa984528c6c48bb98245c341ecc3c00",
+    "figures/01_static_bands.png": "38d89f810aa3a5043b1e452c0784c37ac02ad7213ed488d885f48a5c10feda4a",
+    "figures/02_tight_binding.pdf": "2c74103f0eb2c35ad805f1b2a4e4713181819a02cdfe85ca7f88e4b053b6f4f2",
+    "figures/02_tight_binding.png": "85e7029d7dc82138ea692bf6f6ece12b14687300bf4e6252e0e49a23a9670864",
+    "figures/03_floquet_bands.pdf": "3b5bc3fb3d1ddaf6521b6084eff0b89025bc98bf6839ff00ca3efc39cc51f729",
+    "figures/03_floquet_bands.png": "71fe304af4abba570e2c72914c5ef28ca90df514a02bbdbf7128e015a65399f2",
+    "figures/04_tunneling_bandwidth.pdf": "54a59fa360d627e6d21bf3c9d46309b18fbf1f0c2e36fae58298f5899bbf0aee",
+    "figures/04_tunneling_bandwidth.png": "989d72b4dc56bfa9b0e5db6a7432ff038e6e0fbe42d3c9ee9b749ccb2f2fd88a",
+    "figures/05_probability_evolution.pdf": "15dc07f5198e5ee5234d8b3748c097785a306b37604aa913fd3479220bfa16f3",
+    "figures/05_probability_evolution.png": "8053468108029da008d52b05cf44621a334c794433b5ee2a8edacbfc60ba69b4",
+    "figures/05b_expanding_wings.pdf": "a5f3dbc7b7a231aabe342648020ee40b18d7db0c9bcb6240eccd184c689f2fc5",
+    "figures/05b_expanding_wings.png": "49d067c317ec8672ace691251eed2fa4148d6bd92d5b362a3e1e405a8cdda8f3",
+    "figures/06_width_micromotion.pdf": "3b4d6b9204e98ea471df1b2b002fe68214a49720f42af8e8f74d89c7f84aa7c5",
+    "figures/06_width_micromotion.png": "9e562924445f4d8cb4bdf4d5d3691089ddbe9162aad50b23d17ce02af3d37782",
+    "figures/07_localization_snapshots.pdf": "ae67dc3fdd24a6f1d8be49105e5f649cbcb5470318040a37f0d367ab14750b20",
+    "figures/07_localization_snapshots.png": "a5189c17d5e3b3dfebb4d55bcf7858f0ebb545532cad68f67d645dd9a170265e",
+    "figures/08_directed_motion.pdf": "6ad58a32a01b58092ac1312c15d7f748f92b6a7d0519832ed46b3397a3e5464d",
+    "figures/08_directed_motion.png": "a785518102e206fc05e8968be9aaf5c0a6f7668f1b4b83299cd92a18d5b6c1d2",
+    "figures/09_long_range_collapse.pdf": "dcfca02c98f94f4459de2cd5ec4e675bb4cbcf184a0c557babdab519d7e43019",
+    "figures/09_long_range_collapse.png": "a1d297bedaef9c8f3c27851937d8c61845cbee6510eb1fddbe05d10ad813891f",
+    "figures/10_multiband_excitation.pdf": "a403714a1a1f50501d4bc8e816e49ce41e0463e548a1b2d67b5e1d459a49eb26",
+    "figures/10_multiband_excitation.png": "476a0f76fff126c01d0a1d90cd0f6643051c3e070a823cc00e9e68dd12f908dd",
+    "results/convergence.json": "aa67fa83381090cca46dbe614fb5e50db73eeef2aca25b00272b451cf0aad21d",
+    "results/multiband.npz": "1fb2dd679d65e243c4adcb910b8c2d786d03cb338b108a5f9e3f092da6090315",
+    "results/multiband_summary.json": "d9043b6fb52ad9c0ece36599c8ec5bd64a64c6a406162da025dafa75aa2bd792",
+    "results/single_band.npz": "9a2bdc450f3ce4fa0d7dcffe26d402133a013fbdb372ea493fd409befb4e6377",
+    "results/single_band_summary.json": "bffa8e1c32b2bf06d5fe9c72758c38745928ae029ef2fdd0380a999a84cb8893",
+    "results/static_bands.npz": "1d03bdbd609f9e1d6e6d380e546b48ad17612ed51b8984e4182827862bb1c8dc",
+    "results/static_summary.csv": "9e6e95785e385f3bc65040e33285086e22d5a5d9d27852a160f0feb9050a9824",
+    "results/static_summary.json": "dde29475b34a132476354d99c663adfa6fe6e8786f696a918ce56ad69f4f8a23",
+    "results/wavepacket_summary.json": "7f3c5b107371119e0161cad6ce03c05629c70a1e2d4450baeec3c1fceb64d5c3",
+    "results/wavepackets.npz": "064f7a7555e3e8ea1b81495bf8a63767d22788938b4cc83ffc2fe7d80dce0f96"
+  }
+}

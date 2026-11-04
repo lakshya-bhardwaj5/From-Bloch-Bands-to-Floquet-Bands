@@ -1,0 +1,13 @@
+{
+  "updated_at_utc": "2026-11-04T21:21:12.855154+00:00",
+  "scope": "Only Sections 2.2 and 2.3 in report.tex",
+  "outside_scope_identical": true,
+  "notation_sources": [
+    "Lecture_7_1.pdf equations 19-32",
+    "Lecture_8_2.pdf equations 1-2"
+  ],
+  "notation": "psi_nk, mathcal E_nk, c^(n)_(k-K), H_KKprime and U_(Kprime-K)",
+  "code_change": "None; minus-K convention is the original basis in reversed order",
+  "report_pages": 43,
+  "report_sha256": "5295f22a03c6b573e0bc135786787a62eeb6f4776516356c8be62dfbf8c8331b"
+}

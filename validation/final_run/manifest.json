@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "claim_id": "C_FLOQUET_TRANSPORT_COURSE_PROJECT",
+  "repository": {
+    "commit": "unavailable",
+    "dirty": true
+  },
+  "command": [
+    "python3",
+    "code/run_all.py",
+    "--output-run",
+    "validation/final_run"
+  ],
+  "environment": {
+    "software": [
+      {
+        "name": "runner-python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "Python",
+        "version": "3.12.14"
+      },
+      {
+        "name": "NumPy",
+        "version": "2.3.5"
+      },
+      {
+        "name": "SciPy",
+        "version": "1.17.0"
+      },
+      {
+        "name": "Matplotlib",
+        "version": "3.10.8"
+      }
+    ],
+    "hardware": "Linux-6.18.57-x86_64-with-glibc2.39"
+  },
+  "mathematics": {
+    "assertion_tested": "Specified static bands, Bessel averages, packet identities and bounded continuum excitation agree with independent benchmarks and selected discretization refinements.",
+    "coefficient_domain": "Complex double precision; real symmetric static matrices",
+    "conventions": "V=s E_R sin^2(k_L x); q=kd; continuum units E_R, hbar; NN units J, hbar",
+    "inputs": [
+      "Static depths 2,4,8,12; NN strengths 0,1.5,2.4048255577,3.5",
+      "Continuum s=8, K=0.35, k=0; Omega_R=1 and center first-band gap"
+    ],
+    "bounds": {
+      "max_plane_wave_cutoff": 12,
+      "max_packet_sites": 1024,
+      "max_periods": 20,
+      "max_continuum_steps_per_period": 4096
+    },
+    "non_claims": [
+      "No universal parameter-space convergence theorem",
+      "No experimental fit or heating rate",
+      "No interacting or indefinite-time stability result"
+    ]
+  },
+  "randomness": {
+    "used": false,
+    "generator": "",
+    "seed": null
+  },
+  "run": {
+    "started_at": "2026-11-01T05:32:31.474624+00:00",
+    "runtime_seconds": 11.847588,
+    "exit_status": 0,
+    "status": "completed",
+    "timeout_seconds": 300.0,
+    "max_output_bytes": 1048576,
+    "resource_limits": {
+      "memory_bytes": 4294967296,
+      "cpu_seconds": 240,
+      "max_cores": 1,
+      "max_threads": 1
+    },
+    "missing_results": [],
+    "invalid_results": []
+  },
+  "execution_artifacts": [
+    "code/common.py",
+    "code/convergence.py",
+    "code/multiband.py",
+    "code/run_all.py",
+    "code/single_band.py",
+    "code/static_bands.py",
+    "code/wavepackets.py",
+    "requirements.txt"
+  ],
+  "input_artifacts": [
+    {
+      "path": "code/common.py",
+      "sha256": "f51ddf23fa73639e87a8bcb0351e720bc87a7521e6041d6fb1ffa2d2159122dd",
+      "sha256_after": "f51ddf23fa73639e87a8bcb0351e720bc87a7521e6041d6fb1ffa2d2159122dd"
+    },
+    {
+      "path": "code/convergence.py",
+      "sha256": "c0fad991ef3218d07f0e898f1ea2ce5506f2fd7464ebd84a25ada119d45a26da",
+      "sha256_after": "c0fad991ef3218d07f0e898f1ea2ce5506f2fd7464ebd84a25ada119d45a26da"
+    },
+    {
+      "path": "code/multiband.py",
+      "sha256": "9bd40c1d609b991310a96c3013bf5f9626fc61f15eee8f9b803c34d54e73e186",
+      "sha256_after": "9bd40c1d609b991310a96c3013bf5f9626fc61f15eee8f9b803c34d54e73e186"
+    },
+    {
+      "path": "code/run_all.py",
+      "sha256": "971ebda593cfb545260f19d7e87f6dd2bbd6ef19b3554e973de279aaccb9c17d",
+      "sha256_after": "971ebda593cfb545260f19d7e87f6dd2bbd6ef19b3554e973de279aaccb9c17d"
+    },
+    {
+      "path": "code/single_band.py",
+      "sha256": "241918267ddd6ca1850a4234791e98b07772633ded41fc65215215fe4c2727c9",
+      "sha256_after": "241918267ddd6ca1850a4234791e98b07772633ded41fc65215215fe4c2727c9"
+    },
+    {
+      "path": "code/static_bands.py",
+      "sha256": "6901f2a8a977370d1cd7189f5013583f0d07420a759196909596b4df4ab048c0",
+      "sha256_after": "6901f2a8a977370d1cd7189f5013583f0d07420a759196909596b4df4ab048c0"
+    },
+    {
+      "path": "code/wavepackets.py",
+      "sha256": "deda52d5e76792e82b7fcb7461a6ae5b1e24060173fef536db0f38d70f13b78f",
+      "sha256_after": "deda52d5e76792e82b7fcb7461a6ae5b1e24060173fef536db0f38d70f13b78f"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "84c60e5e3ccde42a44a809296097abf4e93e8fc1bad1abe831361d8620ee61b3",
+      "sha256_after": "84c60e5e3ccde42a44a809296097abf4e93e8fc1bad1abe831361d8620ee61b3"
+    }
+  ],
+  "output_directory": "validation/final_run",
+  "declared_results": [
+    "validation/final_run/completion.json"
+  ],
+  "outputs": [
+    {
+      "path": "validation/final_run/stdout.txt",
+      "sha256": "664fcd5bcdaca79a84322ddb913e554daa0a4a8a172cf1e7c73f0d0d03c55408",
+      "kind": "log"
+    },
+    {
+      "path": "validation/final_run/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "log"
+    },
+    {
+      "path": "validation/final_run/completion.json",
+      "sha256": "adf3369471aa5e644b0b86f81ad63539ceb91800cff5b2d966b4d518d77a6ae7",
+      "kind": "result"
+    }
+  ],
+  "checks": [
+    {
+      "check": "input hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "process exited successfully within enforced limits",
+      "passed": true
+    },
+    {
+      "check": "declared result files are present and regular",
+      "passed": true
+    }
+  ],
+  "result": "Run completed; mathematical assertion requires interpretation and review.",
+  "residual_risks": [
+    "Command success does not establish the mathematical interpretation.",
+    "Only listed input artifacts are pinned; external dependencies need recorded versions.",
+    "The thread cap uses conventional environment variables; a child program may ignore them.",
+    "The POSIX CPU-time limit is per process, not an aggregate descendant budget."
+  ]
+}

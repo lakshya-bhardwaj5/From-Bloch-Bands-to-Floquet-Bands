@@ -1,0 +1,289 @@
+[
+  {
+    "file": "01_static_bands.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/01_static_bands.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 18790,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 352.79998779296875,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 124.45999569363065,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 33
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "02_tight_binding.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/02_tight_binding.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 18478,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 198.0,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 69.85,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 21
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "03_floquet_bands.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/03_floquet_bands.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 20819,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 324.0,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 114.30000000000001,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 21
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "04_tunneling_bandwidth.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/04_tunneling_bandwidth.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 19072,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 316.79998779296875,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 111.75999569363063,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 17
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "05_probability_evolution.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/05_probability_evolution.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 54267,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 345.6000061035156,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 121.92000215318467,
+        "embedded_images_first_page": 5,
+        "text_blocks_first_page": 35
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "code": "pdf_embedded_images",
+          "message": "PDF first page contains 5 embedded image object(s); verify no low-resolution rasterization occurred."
+        }
+      ],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "05b_expanding_wings.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/05b_expanding_wings.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 91171,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 201.60000610351562,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 71.12000215318467,
+        "embedded_images_first_page": 3,
+        "text_blocks_first_page": 31
+      },
+      "issues": [
+        {
+          "severity": "info",
+          "code": "pdf_embedded_images",
+          "message": "PDF first page contains 3 embedded image object(s); verify no low-resolution rasterization occurred."
+        }
+      ],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "06_width_micromotion.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/06_width_micromotion.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 23685,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 208.8000030517578,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 73.66000107659232,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 16
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "07_localization_snapshots.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/07_localization_snapshots.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 15587,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 198.0,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 69.85,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 9
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "08_directed_motion.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/08_directed_motion.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 24454,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 208.8000030517578,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 73.66000107659232,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 21
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "09_long_range_collapse.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/09_long_range_collapse.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 17067,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 205.1999969482422,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 72.38999892340765,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 23
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  },
+  {
+    "file": "10_multiband_excitation.pdf",
+    "exit_code": 0,
+    "report": {
+      "path": "/workspace/scratch/e4a728221555/floquet_project/figures/10_multiband_excitation.pdf",
+      "format": "pdf",
+      "passed": true,
+      "metadata": {
+        "size_bytes": 20060,
+        "page_count": 1,
+        "page_width_pt": 475.20001220703125,
+        "page_height_pt": 223.1999969482422,
+        "page_width_mm": 167.64000430636935,
+        "page_height_mm": 78.73999892340765,
+        "embedded_images_first_page": 0,
+        "text_blocks_first_page": 19
+      },
+      "issues": [],
+      "limitations": [
+        "Programmatic preflight cannot verify scientific correctness or omitted evidence.",
+        "Programmatic preflight cannot reliably detect label collisions, hierarchy, or the five-second message.",
+        "Inspect a final-size rendered image after the most recent edit."
+      ]
+    }
+  }
+]

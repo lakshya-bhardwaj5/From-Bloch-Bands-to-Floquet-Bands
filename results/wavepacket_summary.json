@@ -1,0 +1,64 @@
+{
+  "Omega_J": 4.0,
+  "Nsite": 1024,
+  "delta_checks": [
+    {
+      "K": 0.0,
+      "max_norm_error": 4.440892098500626e-16,
+      "max_center_error": 6.203930909292765e-15,
+      "max_width_error": 1.4210854715202004e-14,
+      "boundary_probability": 2.980188586404625e-30
+    },
+    {
+      "K": 1.5,
+      "max_norm_error": 4.440892098500626e-16,
+      "max_center_error": 2.7167407988268833e-15,
+      "max_width_error": 7.105427357601002e-15,
+      "boundary_probability": 2.1730818534401746e-31
+    },
+    {
+      "K": 2.4048255576957724,
+      "max_norm_error": 4.440892098500626e-16,
+      "max_center_error": 1.9875096574320067e-16,
+      "max_width_error": 2.220446049250313e-16,
+      "boundary_probability": 1.704797613535209e-32
+    },
+    {
+      "K": 3.5,
+      "max_norm_error": 5.551115123125783e-16,
+      "max_center_error": 2.350449168498533e-15,
+      "max_width_error": 5.329070518200751e-15,
+      "boundary_probability": 9.472883966262886e-32
+    }
+  ],
+  "gaussian_sigma_sites": 6.0,
+  "q0": 1.0471975511965976,
+  "sin_q_mean": 0.8630235856381545,
+  "drift": [
+    {
+      "K": 0.0,
+      "predicted_drift_dJ_over_hbar": 1.726047171276309,
+      "fitted_drift_dJ_over_hbar": 1.7260471712763084,
+      "max_strobe_error_sites": 1.4210854715202004e-14
+    },
+    {
+      "K": 1.5,
+      "predicted_drift_dJ_over_hbar": 0.8834387049807207,
+      "fitted_drift_dJ_over_hbar": 0.8834387049807207,
+      "max_strobe_error_sites": 3.552713678800501e-15
+    },
+    {
+      "K": 2.4048255576957724,
+      "predicted_drift_dJ_over_hbar": 1.654741151527235e-16,
+      "fitted_drift_dJ_over_hbar": 8.275002429445472e-17,
+      "max_strobe_error_sites": 5.285534394938387e-15
+    },
+    {
+      "K": 3.5,
+      "predicted_drift_dJ_over_hbar": -0.6561184103286724,
+      "fitted_drift_dJ_over_hbar": -0.6561184103286724,
+      "max_strobe_error_sites": 8.881784197001252e-15
+    }
+  ],
+  "max_collapse_micromotion_width_sites": 0.8327538106908182
+}
