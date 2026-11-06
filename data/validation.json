@@ -1,0 +1,46 @@
+{
+  "source_report_sha256": "f923126085b23fb8f6c19bcf37e37701c3de1e1515725142c94ca54d34bdabba",
+  "test_count": 7,
+  "failures": 0,
+  "errors": 0,
+  "all_passed": true,
+  "cutoff_comparison": {
+    "M": 12,
+    "reference_M": 16,
+    "depths": [
+      0,
+      0.25,
+      2,
+      4,
+      8,
+      12
+    ],
+    "momenta_per_depth": 21,
+    "bands": 3,
+    "max_absolute_difference_ER": 1.546540673302843e-13
+  },
+  "mathieu_max_edge_error_ER": 6.128431095930864e-14,
+  "weak_gap_relative_error_at_s_0_001": 9.606750950297283e-10,
+  "gif_files": {
+    "band_formation": {
+      "size_bytes": 1207203,
+      "dimensions": [
+        1160,
+        570
+      ],
+      "frames": 96,
+      "loop": 0,
+      "duration_ms": 8620
+    },
+    "quasimomentum_scan": {
+      "size_bytes": 589903,
+      "dimensions": [
+        1160,
+        570
+      ],
+      "frames": 120,
+      "loop": 0,
+      "duration_ms": 8400
+    }
+  }
+}

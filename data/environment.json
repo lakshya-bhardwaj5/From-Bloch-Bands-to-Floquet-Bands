@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "pillow": "13.0.0",
+  "cutoff_M": 12,
+  "plane_waves": 25,
+  "plot_momentum_points": 401,
+  "fourier_momentum_points": 2048,
+  "randomness": false
+}
