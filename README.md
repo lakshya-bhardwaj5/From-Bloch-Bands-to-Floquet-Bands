@@ -1,9 +1,7 @@
 # From Bloch bands to Floquet bands
 
-### Chapter 2 · Stationary optical lattice and Bloch bands
-
 **How does a periodic potential turn free-particle crossings into energy bands?**
-This repository calculates the stationary bands of a one-dimensional optical lattice directly from the plane-wave matrix derived in Chapter 2 of my course report. Increasing the lattice depth opens gaps and makes the lowest band flatter.
+
 
 **Lakshya Bhardwaj · Physics, Arizona State University**
 
@@ -11,17 +9,14 @@ This repository calculates the stationary bands of a one-dimensional optical lat
 
 ![Looping animation of the optical potential and the lowest three Bloch bands as lattice depth changes](assets/band_formation.gif)
 
-The left panel shows the potential; the right shows the three lowest bands over the first Brillouin zone. The lattice depth sweeps from $s=0$ to $12$ and back. Both energy scales stay fixed, and the bandwidth and first edge gap are calculated at every frame.
 
-This is a sequence of **stationary eigenproblems**, rather than a time-dependent evolution of an atom. The animation is a looping GIF embedded directly in this README.
 
 ## Follow a point along a band
 
 ![Looping quasimomentum scan showing three band energies and the lowest-band plane-wave composition](assets/quasimomentum_scan.gif)
 
-At fixed depth $s=4$, the moving markers identify the three energies at a selected $k$. The right panel shows the lowest eigenstate's plane-wave probabilities $|a_{0\ell}(k)|^2$. Near a zone edge, the two counterpropagating momentum components mix. The displayed reciprocal indices are $-4\leq\ell\leq4$; the small omitted weight is reported above the panels. This scan does not apply an external force or simulate dynamics.
 
-## The calculation
+## Calculations
 
 The lattice Hamiltonian and recoil energy are
 
@@ -46,13 +41,11 @@ The mean potential $V_0/2$ is included in every absolute energy. The points $k=\
 
 ![The lowest three bands at lattice depths 2, 4, 8, and 12](assets/01_bands.png)
 
-All four panels use the same energy scale. The solid teal curve is the lowest band; dashed and dotted curves are the next two bands. The pale region marks the first forbidden energy interval. These are continuum-lattice results from the finite plane-wave basis, not a nearest-neighbor approximation.
 
 ## Bandwidth and the first gap
 
 ![Lowest-band width decreases and the first edge gap increases with lattice depth](assets/02_width_and_gap.png)
 
-The quantities from Eq. (2.30) are
 
 $$
 W_0=\max_k E_0(k)-\min_k E_0(k),\qquad
@@ -119,10 +112,4 @@ GIFs are generated with Pillow. No video file, FFmpeg installation, notebook ser
 | [data](data) | Band arrays, CSV tables, approximation errors, and recorded package versions |
 | [METHODS.md](METHODS.md) | Equation mapping, benchmarks, numerical conventions, and scope |
 
-## Validation and scope
 
-The seven checks cover the folded free-particle spectrum, independent Mathieu characteristic values at the band edges, inversion symmetry, convergence from $M=12$ to $16$, the weak-depth gap, Table 2.1, eigenvector residuals and normalization, and the tight-binding comparison. The recorded execution passed all seven tests; [validation.json](data/validation.json) records the numerical residuals and tested range.
-
-This repository currently covers **Chapter 2's static, single-particle lattice**. The project title names the larger Bloch-to-Floquet course project; periodic shaking and Floquet quasienergies are outside this implementation. Atom–atom interactions, confinement, dissipation, and experimental noise are omitted. All results are deterministic model calculations.
-
-Source: Lakshya Bhardwaj, *From Bloch Bands to Floquet Bands: Controlling Atomic Transport in a One-Dimensional Optical Lattice*, Chapter 2, supplied report. The uploaded source file's SHA-256 is recorded in [METHODS.md](METHODS.md). Background: Martin Holthaus, [*Floquet engineering with quasienergy bands of periodically driven optical lattices*](https://doi.org/10.1088/0953-4075/49/1/013001), J. Phys. B **49**, 013001 (2016).
