@@ -1,4 +1,4 @@
-# From Bloch bands to Floquet bands
+# PHY 581 Course project. From Bloch bands to Floquet bands (Work in progress)
 
 **How does a periodic potential turn free-particle crossings into energy bands?**
 
@@ -78,38 +78,5 @@ $$
 The nearest-neighbor model retains only $J_1$, giving $E_{\mathrm{NN}}(q)=\overline E-2J_1\cos q$. Here $J_1$ is extracted from the continuum band by the Fourier integral in Eq. (2.37); it is not fitted or set equal to $W_0/4$.
 
 For $s=2$ and $8$, the maximum dispersion errors divided by the full continuum bandwidth are approximately **9.22%** and **1.07%**. A deeper lattice improves this approximation. These numbers describe model error, not experimental uncertainty.
-
-## Reproduce everything
-
-Use Python 3.10 or newer. From the repository root:
-
-```bash
-python -m venv .venv
-```
-
-Activate the environment on macOS/Linux with `source .venv/bin/activate`, or in Windows PowerShell with `.venv\Scripts\Activate.ps1`, then run:
-
-```bash
-python -m pip install -r requirements.txt
-python -m unittest discover -s tests -v
-python src/generate.py
-```
-
-To regenerate only the static figures and numerical data:
-
-```bash
-python src/generate.py --static-only
-```
-
-GIFs are generated with Pillow. No video file, FFmpeg installation, notebook server, or hosted website is needed. Change the depth list, momentum grid, or animation parameters in [generate.py](src/generate.py); the physical solver lives in [lattice.py](src/lattice.py).
-
-| Path | Contents |
-|---|---|
-| [src/lattice.py](src/lattice.py) | Plane-wave solver, band metrics, Fourier hopping |
-| [src/generate.py](src/generate.py) | Reproducible plots, data, and both GIFs |
-| [tests/test_lattice.py](tests/test_lattice.py) | Seven independent physical and numerical checks |
-| [assets](assets) | Embedded GIFs, PNG previews, and editable vector SVG figures |
-| [data](data) | Band arrays, CSV tables, approximation errors, and recorded package versions |
-| [METHODS.md](METHODS.md) | Equation mapping, benchmarks, numerical conventions, and scope |
 
 
