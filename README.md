@@ -5,7 +5,7 @@
 
 **Lakshya Bhardwaj · Physics, Arizona State University**
 
-## Watch the bands form
+
 
 ![Looping animation of the optical potential and the lowest three Bloch bands as lattice depth changes](assets/band_formation.gif)
 
